@@ -11,8 +11,11 @@
     /* background: #093028; 
     background: -webkit-linear-gradient(to top, #237A57, #093028); 
     background: linear-gradient(to top, #237A57, #093028);  */
-    background-image: linear-gradient( 109.6deg,  rgba(0,0,0,1) 11.2%, rgba(11,132,145,1) 91.1% );
-    
+    background-image: linear-gradient( 109.6deg,  rgba(0,0,0,1) 11.2%, rgba(11,132,145,1) 91.1% );   
+}
+#barra{
+    position:sticky;
+    top: 0;
 }
 .contenedorBase{
     background-image:url(../multimedia/Background.png);
