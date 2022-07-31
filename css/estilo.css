@@ -8,14 +8,10 @@
 /* INDEX */
 
 .body{
-    /* background: #093028; 
-    background: -webkit-linear-gradient(to top, #237A57, #093028); 
-    background: linear-gradient(to top, #237A57, #093028);  */
     background-image: linear-gradient( 109.6deg,  rgba(0,0,0,1) 11.2%, rgba(11,132,145,1) 91.1% );   
 }
-#barra{
-    position:sticky;
-    top: 0;
+.inicio{
+    font-family:'Stick No Bills', sans-serif;
 }
 .contenedorBase{
     background-image:url(../multimedia/Background.png);
@@ -30,15 +26,15 @@
 .medida1 {
     width: 350px;
     border-radius: 4px;
-    border: 4px solid #093028;
+    border: 4px solid #02181a;
 }
 .medida2 {
     width: 550px;
     border-radius: 4px;
-    border: 4px solid #093028;
+    border: 4px solid #02181a;
 }
 .seccion1{
-    border: 3px solid #093028;
+    border: 3px solid #02181a;
 }
 
 
@@ -53,3 +49,104 @@
 
 
 
+/* APLICANDO MEDIA QUERIES */
+
+@media (max-width:1090px) {
+    .contenedorBase{
+        display: none;
+    }
+    #medios{
+        display: none;
+    }
+    .flexPadre{
+        flex-wrap: wrap;
+    }
+    #tiy{
+        display: block;
+    }
+    .multimedia{
+        display: grid;
+        grid-template-areas:
+        "navegacion navegacion navegacion"
+        "variado variado variado"
+        "main main main"
+        "a b"
+        "c d"
+        "e f"
+        "g h"
+        "i j"
+        "foot foot foot";
+        gap: 15px;
+    }
+    .map {
+        display: grid;
+        grid-template-areas:
+        "inicio inicio"
+        "navCherno navCherno"
+        "foot foot foot";
+    }
+    .contacto{
+        display: inline;
+    }
+}
+
+
+@media (max-width:768px)  {
+    .inicio{
+        display: none;
+    }
+    #medios{
+        display:none;
+    }
+    .flexPadre{
+        flex-wrap:nowrap;
+    }
+    #imgInicio{
+        display: none;
+    }
+    .map {
+        display: grid;
+        grid-template-areas:
+        "inicio"
+        "navCherno"
+        "foot foot";
+    }
+    .contacto{
+        display: grid;
+        grid-template-areas: 
+        "contactInfo ContactInfo"
+        "relleno relleno"
+        "foot foot";
+    }
+    .multimedia{
+        display: grid;
+        grid-template-areas:
+        "navegacion navegacion navegacion"
+        "variado variado variado"
+        "main main main"
+        "a b"
+        "c d"
+        "e f"
+        "g h"
+        "i j"
+        "foot";
+        gap: 15px;
+    }
+}
+
+@media (min-width:768px) {
+    .multimedia{
+        display: grid;
+        grid-template-areas:
+        "navegacion navegacion navegacion"
+        "variado variado variado"
+        "main main main"
+        "a b"
+        "c d"
+        "e f"
+        "g h"
+        "i j"
+        "foot";
+        gap: 15px;
+    }
+}
