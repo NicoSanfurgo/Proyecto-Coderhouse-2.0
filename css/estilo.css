@@ -111,7 +111,7 @@
     background-color: #02181a;
 }
 #mercha{
-    margin-left: 450px;
+    margin-left: 150px;
 }
 
 
@@ -143,10 +143,7 @@
         gap: 15px;
     }
     .map {
-        display: grid;
-        grid-template-areas:
-        "inicio inicio"
-        "navCherno navCherno";
+        display: inline;
     }
     .contacto{
         display: inline;
