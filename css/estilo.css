@@ -80,6 +80,20 @@
     margin: auto;
 }
 
+/* Multimedia */
+.multi{
+    background-image: linear-gradient( 109.6deg,  rgba(0,0,0,1) 11.2%, rgba(11,132,145,1) 91.1% );
+}
+.roll {
+    width: 500px;
+    margin: auto;
+    box-shadow: #000 10px 15px 8px 2px;
+}
+.roll2 {
+    width: 700px;
+    margin: auto;
+    box-shadow: #000 10px 15px 8px 2px;
+}
 
 /* APLICANDO MEDIA QUERIES */
 @media (max-width:1090px) {
