@@ -106,6 +106,15 @@
     width: 1000px;
 }
 
+/* Merchandising */
+.merch{
+    background-color: #02181a;
+}
+#mercha{
+    margin-left: 450px;
+}
+
+
 /* APLICANDO MEDIA QUERIES */
 @media (max-width:1090px) {
     .contenedorBase{
