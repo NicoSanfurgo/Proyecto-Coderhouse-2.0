@@ -85,14 +85,25 @@
     background-image: linear-gradient( 109.6deg,  rgba(0,0,0,1) 11.2%, rgba(11,132,145,1) 91.1% );
 }
 .roll {
-    width: 500px;
+    text-align: center;
+    width: 700px;
     margin: auto;
     box-shadow: #000 10px 15px 8px 2px;
 }
 .roll2 {
-    width: 700px;
+    text-align: center;
+    width: 500px;
     margin: auto;
     box-shadow: #000 10px 15px 8px 2px;
+}
+.ilust{
+    text-align: center;
+}
+.multi3{
+    box-shadow: #000 10px 15px 8px 2px;
+    border-radius: 13px;
+    border: #02181a solid 4px;
+    width: 1000px;
 }
 
 /* APLICANDO MEDIA QUERIES */
@@ -119,16 +130,14 @@
         "c d"
         "e f"
         "g h"
-        "i j"
-        "foot foot foot";
+        "i ";
         gap: 15px;
     }
     .map {
         display: grid;
         grid-template-areas:
         "inicio inicio"
-        "navCherno navCherno"
-        "foot foot foot";
+        "navCherno navCherno";
     }
     .contacto{
         display: inline;
@@ -152,15 +161,13 @@
         display: grid;
         grid-template-areas:
         "inicio"
-        "navCherno"
-        "foot foot";
+        "navCherno";
     }
     .contacto{
         display: grid;
         grid-template-areas: 
         "contactInfo ContactInfo"
-        "relleno relleno"
-        "foot foot";
+        "relleno relleno";
     }
     .multimedia{
         display: grid;
@@ -172,8 +179,7 @@
         "c d"
         "e f"
         "g h"
-        "i j"
-        "foot";
+        "i j";
         gap: 15px;
     }
 }
@@ -189,8 +195,7 @@
         "c d"
         "e f"
         "g h"
-        "i j"
-        "foot";
+        "i j";
         gap: 15px;
     }
 }
