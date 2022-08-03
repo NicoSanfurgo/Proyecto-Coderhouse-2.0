@@ -35,6 +35,9 @@
 .seccion1{
     border: 3px solid #02181a;
 }
+#tiy{
+    color: aliceblue;
+}
 
 
 /* CONTACTO */
@@ -113,7 +116,20 @@
 #mercha{
     margin-left: 150px;
 }
-
+#toping{
+    margin-top: 25px;
+}
+#toping2{
+    margin-top: 55px;
+}
+/* Letras/Fuentes */
+#letra{
+    color: aliceblue;
+}
+#letraFont{
+    color: aliceblue;
+    font-size: 20px;
+}
 
 /* APLICANDO MEDIA QUERIES */
 @media (max-width:1090px) {
@@ -143,7 +159,11 @@
         gap: 15px;
     }
     .map {
-        display: inline;
+        display: grid;
+        grid-template-areas:
+        "barra"
+        "inicio"
+        "zona";
     }
     .contacto{
         display: inline;
