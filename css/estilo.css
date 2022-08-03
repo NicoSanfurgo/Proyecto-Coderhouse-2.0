@@ -163,7 +163,8 @@
         grid-template-areas:
         "barra"
         "inicio"
-        "zona";
+        "zona"
+        "inicio";
     }
     .contacto{
         display: inline;
